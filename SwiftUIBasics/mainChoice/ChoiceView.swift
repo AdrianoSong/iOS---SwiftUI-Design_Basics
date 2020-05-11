@@ -40,6 +40,8 @@ struct ChoiceView: View {
             return AnyView(NeumorphicButtons())
         case .card:
             return AnyView(Text("todo"))
+        case .slideMenu:
+            return AnyView(SlideMenuView())
         }
     }
 }
