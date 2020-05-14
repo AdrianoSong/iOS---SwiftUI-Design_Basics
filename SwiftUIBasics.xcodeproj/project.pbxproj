@@ -16,6 +16,8 @@
 		E4552C3A245B9166008203BF /* ChoiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4552C39245B9166008203BF /* ChoiceViewModel.swift */; };
 		E4552C3C245B934D008203BF /* ChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4552C3B245B934D008203BF /* ChoiceCell.swift */; };
 		E499920A2469B5F800B9E7B9 /* SlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49992092469B5F800B9E7B9 /* SlideMenuView.swift */; };
+		E499920D2469C28500B9E7B9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E499920C2469C28500B9E7B9 /* CardView.swift */; };
+		E499920F2469C4D200B9E7B9 /* CardsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E499920E2469C4D200B9E7B9 /* CardsCollection.swift */; };
 		E4B8B1C8245C530B00F5CCB4 /* NeumorphicButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8B1C7245C530B00F5CCB4 /* NeumorphicButtonsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		E4552C39245B9166008203BF /* ChoiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewModel.swift; sourceTree = "<group>"; };
 		E4552C3B245B934D008203BF /* ChoiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceCell.swift; sourceTree = "<group>"; };
 		E49992092469B5F800B9E7B9 /* SlideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuView.swift; sourceTree = "<group>"; };
+		E499920C2469C28500B9E7B9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E499920E2469C4D200B9E7B9 /* CardsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCollection.swift; sourceTree = "<group>"; };
 		E4B8B1C7245C530B00F5CCB4 /* NeumorphicButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,9 +68,10 @@
 		E4552C24245B8FDF008203BF /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
-				E49992082469B5CF00B9E7B9 /* slideMenu */,
 				E4B8B1C9245C53B300F5CCB4 /* mainChoice */,
 				E4B8B1C6245C52A600F5CCB4 /* neumorphicButton */,
+				E49992082469B5CF00B9E7B9 /* slideMenu */,
+				E499920B2469C25C00B9E7B9 /* gestureTransform */,
 				E4552C25245B8FDF008203BF /* AppDelegate.swift */,
 				E4552C27245B8FDF008203BF /* SceneDelegate.swift */,
 				E4552C2B245B8FE1008203BF /* Assets.xcassets */,
@@ -91,6 +96,15 @@
 				E49992092469B5F800B9E7B9 /* SlideMenuView.swift */,
 			);
 			path = slideMenu;
+			sourceTree = "<group>";
+		};
+		E499920B2469C25C00B9E7B9 /* gestureTransform */ = {
+			isa = PBXGroup;
+			children = (
+				E499920C2469C28500B9E7B9 /* CardView.swift */,
+				E499920E2469C4D200B9E7B9 /* CardsCollection.swift */,
+			);
+			path = gestureTransform;
 			sourceTree = "<group>";
 		};
 		E4B8B1C6245C52A600F5CCB4 /* neumorphicButton */ = {
@@ -187,7 +201,9 @@
 				E4552C2A245B8FDF008203BF /* ChoiceView.swift in Sources */,
 				E4552C3A245B9166008203BF /* ChoiceViewModel.swift in Sources */,
 				E4552C3C245B934D008203BF /* ChoiceCell.swift in Sources */,
+				E499920F2469C4D200B9E7B9 /* CardsCollection.swift in Sources */,
 				E4B8B1C8245C530B00F5CCB4 /* NeumorphicButtonsView.swift in Sources */,
+				E499920D2469C28500B9E7B9 /* CardView.swift in Sources */,
 				E499920A2469B5F800B9E7B9 /* SlideMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
