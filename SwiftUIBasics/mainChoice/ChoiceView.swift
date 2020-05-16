@@ -42,6 +42,8 @@ struct ChoiceView: View {
             return AnyView(CardsCollection())
         case .slideMenu:
             return AnyView(SlideMenuView())
+        case .animationTransition:
+            return AnyView(TransitionWithBlur())
         }
     }
 }
