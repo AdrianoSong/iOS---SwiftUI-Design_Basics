@@ -20,6 +20,7 @@
 		E499920D2469C28500B9E7B9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E499920C2469C28500B9E7B9 /* CardView.swift */; };
 		E499920F2469C4D200B9E7B9 /* CardsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E499920E2469C4D200B9E7B9 /* CardsCollection.swift */; };
 		E4B8B1C8245C530B00F5CCB4 /* NeumorphicButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8B1C7245C530B00F5CCB4 /* NeumorphicButtonsView.swift */; };
+		E4FA21C1247C9A2100C42893 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA21C0247C9A2100C42893 /* ContextMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E499920C2469C28500B9E7B9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E499920E2469C4D200B9E7B9 /* CardsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCollection.swift; sourceTree = "<group>"; };
 		E4B8B1C7245C530B00F5CCB4 /* NeumorphicButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonsView.swift; sourceTree = "<group>"; };
+		E4FA21C0247C9A2100C42893 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		E4552C24245B8FDF008203BF /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				E4FA21BF247C9A0800C42893 /* contextMenu */,
 				E4B8B1C9245C53B300F5CCB4 /* mainChoice */,
 				E4B8B1C6245C52A600F5CCB4 /* neumorphicButton */,
 				E49992082469B5CF00B9E7B9 /* slideMenu */,
@@ -134,6 +137,14 @@
 				E4552C39245B9166008203BF /* ChoiceViewModel.swift */,
 			);
 			path = mainChoice;
+			sourceTree = "<group>";
+		};
+		E4FA21BF247C9A0800C42893 /* contextMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA21C0247C9A2100C42893 /* ContextMenuView.swift */,
+			);
+			path = contextMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 				E4552C2A245B8FDF008203BF /* ChoiceView.swift in Sources */,
 				E458390C24700C500046BC6D /* TransitionWithBlur.swift in Sources */,
 				E4552C3A245B9166008203BF /* ChoiceViewModel.swift in Sources */,
+				E4FA21C1247C9A2100C42893 /* ContextMenuView.swift in Sources */,
 				E4552C3C245B934D008203BF /* ChoiceCell.swift in Sources */,
 				E499920F2469C4D200B9E7B9 /* CardsCollection.swift in Sources */,
 				E4B8B1C8245C530B00F5CCB4 /* NeumorphicButtonsView.swift in Sources */,

@@ -44,6 +44,8 @@ struct ChoiceView: View {
             return AnyView(SlideMenuView())
         case .animationTransition:
             return AnyView(TransitionWithBlur())
+        case .contextMenu:
+            return AnyView(ContextMenuView())
         }
     }
 }
