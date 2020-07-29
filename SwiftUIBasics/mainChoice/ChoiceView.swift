@@ -46,6 +46,12 @@ struct ChoiceView: View {
             return AnyView(TransitionWithBlur())
         case .contextMenu:
             return AnyView(ContextMenuView())
+        case .movingOffset:
+            return AnyView(MoveShapeView())
+        case .floatingButtons:
+            return AnyView(FloatingButtons())
+        case .popupView:
+            return AnyView(PopupView())
         }
     }
 }

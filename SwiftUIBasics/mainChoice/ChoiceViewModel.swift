@@ -15,6 +15,9 @@ enum MainChoice: String, CaseIterable {
     case slideMenu = "Left side in menu"
     case animationTransition = "Animate transition with blur"
     case contextMenu = "Context menu"
+    case movingOffset = "View Animate offset"
+    case floatingButtons = "Floating buttons"
+    case popupView = "Popup view"
 }
 
 ///The only way to add Identifiable to an Enum type
@@ -27,6 +30,15 @@ class ChoiceViewModel {
     let choiceArray: [MainChoice]
 
     init() {
-        choiceArray = [.button, .card, .slideMenu, .animationTransition, .contextMenu]
+        choiceArray = [
+            .button,
+            .card,
+            .slideMenu,
+            .animationTransition,
+            .contextMenu,
+            .movingOffset,
+            .floatingButtons,
+            .popupView
+        ]
     }
 }
