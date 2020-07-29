@@ -16,6 +16,7 @@ enum MainChoice: String, CaseIterable {
     case animationTransition = "Animate transition with blur"
     case contextMenu = "Context menu"
     case movingOffset = "View Animate offset"
+    case movingOffsetChallenge = "View Animate offset challenge"
     case floatingButtons = "Floating buttons"
     case popupView = "Popup view"
 }
@@ -37,6 +38,7 @@ class ChoiceViewModel {
             .animationTransition,
             .contextMenu,
             .movingOffset,
+            .movingOffsetChallenge,
             .floatingButtons,
             .popupView
         ]

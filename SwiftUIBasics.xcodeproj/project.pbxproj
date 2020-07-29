@@ -22,6 +22,8 @@
 		E4A76D3224D20D3C00FF58CA /* MoveShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A76D3124D20D3C00FF58CA /* MoveShapeView.swift */; };
 		E4A76D3524D20D5500FF58CA /* FloatingButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A76D3424D20D5500FF58CA /* FloatingButtons.swift */; };
 		E4A76D3824D20D6900FF58CA /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A76D3724D20D6900FF58CA /* PopupView.swift */; };
+		E4A76D3A24D214AE00FF58CA /* MovingOffsetChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A76D3924D214AE00FF58CA /* MovingOffsetChallengeView.swift */; };
+		E4A76D3D24D21E5400FF58CA /* SimpleLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A76D3C24D21E5400FF58CA /* SimpleLoginView.swift */; };
 		E4B8B1C8245C530B00F5CCB4 /* NeumorphicButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8B1C7245C530B00F5CCB4 /* NeumorphicButtonsView.swift */; };
 		E4FA21C1247C9A2100C42893 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA21C0247C9A2100C42893 /* ContextMenuView.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,8 @@
 		E4A76D3124D20D3C00FF58CA /* MoveShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveShapeView.swift; sourceTree = "<group>"; };
 		E4A76D3424D20D5500FF58CA /* FloatingButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingButtons.swift; sourceTree = "<group>"; };
 		E4A76D3724D20D6900FF58CA /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		E4A76D3924D214AE00FF58CA /* MovingOffsetChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingOffsetChallengeView.swift; sourceTree = "<group>"; };
+		E4A76D3C24D21E5400FF58CA /* SimpleLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLoginView.swift; sourceTree = "<group>"; };
 		E4B8B1C7245C530B00F5CCB4 /* NeumorphicButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonsView.swift; sourceTree = "<group>"; };
 		E4FA21C0247C9A2100C42893 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +82,7 @@
 		E4552C24245B8FDF008203BF /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				E4A76D3B24D21E4000FF58CA /* LoginView */,
 				E4A76D3624D20D5D00FF58CA /* popupView */,
 				E4A76D3324D20D4600FF58CA /* flotingButtons */,
 				E4A76D3024D20D0300FF58CA /* movingOffset */,
@@ -134,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				E4A76D3124D20D3C00FF58CA /* MoveShapeView.swift */,
+				E4A76D3924D214AE00FF58CA /* MovingOffsetChallengeView.swift */,
 			);
 			path = movingOffset;
 			sourceTree = "<group>";
@@ -152,6 +158,14 @@
 				E4A76D3724D20D6900FF58CA /* PopupView.swift */,
 			);
 			path = popupView;
+			sourceTree = "<group>";
+		};
+		E4A76D3B24D21E4000FF58CA /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				E4A76D3C24D21E5400FF58CA /* SimpleLoginView.swift */,
+			);
+			path = LoginView;
 			sourceTree = "<group>";
 		};
 		E4B8B1C6245C52A600F5CCB4 /* neumorphicButton */ = {
@@ -263,7 +277,9 @@
 				E499920F2469C4D200B9E7B9 /* CardsCollection.swift in Sources */,
 				E4B8B1C8245C530B00F5CCB4 /* NeumorphicButtonsView.swift in Sources */,
 				E4A76D3524D20D5500FF58CA /* FloatingButtons.swift in Sources */,
+				E4A76D3A24D214AE00FF58CA /* MovingOffsetChallengeView.swift in Sources */,
 				E499920D2469C28500B9E7B9 /* CardView.swift in Sources */,
+				E4A76D3D24D21E5400FF58CA /* SimpleLoginView.swift in Sources */,
 				E499920A2469B5F800B9E7B9 /* SlideMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
