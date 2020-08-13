@@ -22,6 +22,7 @@ enum MainChoice: String, CaseIterable {
     case bottomMenu = "Bottom menu"
     case loginView = "Simple Login Screen"
     case detailView = "Simple detail zoom view"
+    case menuHelper = "Menu helper"
 }
 
 ///The only way to add Identifiable to an Enum type
@@ -46,7 +47,8 @@ class ChoiceViewModel {
             .popupView,
             .bottomMenu,
             .loginView,
-            .detailView
+            .detailView,
+            .menuHelper
         ]
     }
 }

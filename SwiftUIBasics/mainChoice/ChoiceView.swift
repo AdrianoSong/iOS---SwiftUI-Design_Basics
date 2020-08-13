@@ -60,6 +60,8 @@ struct ChoiceView: View {
             return AnyView(SimpleLoginView())
         case .detailView:
             return AnyView(DetailView())
+        case .menuHelper:
+            return AnyView(MenuHelperView())
         }
     }
 }
