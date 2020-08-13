@@ -54,6 +54,8 @@ struct ChoiceView: View {
             return AnyView(FloatingButtons())
         case .popupView:
             return AnyView(PopupView())
+        case .bottomMenu:
+            return AnyView(BottomMenuView())
         }
     }
 }

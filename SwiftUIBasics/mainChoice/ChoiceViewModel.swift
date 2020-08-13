@@ -19,6 +19,7 @@ enum MainChoice: String, CaseIterable {
     case movingOffsetChallenge = "View Animate offset challenge"
     case floatingButtons = "Floating buttons"
     case popupView = "Popup view"
+    case bottomMenu = "Bottom menu"
 }
 
 ///The only way to add Identifiable to an Enum type
@@ -40,7 +41,8 @@ class ChoiceViewModel {
             .movingOffset,
             .movingOffsetChallenge,
             .floatingButtons,
-            .popupView
+            .popupView,
+            .bottomMenu
         ]
     }
 }

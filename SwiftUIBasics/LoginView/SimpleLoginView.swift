@@ -17,9 +17,7 @@ struct SimpleLoginView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack(spacing: 8) {
-                Text("Challenge").font(.largeTitle)
-
-                Text("Show login").font(.body).foregroundColor(.gray)
+                Text("Login").font(.largeTitle)
 
                 Spacer()
 

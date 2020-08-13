@@ -16,6 +16,7 @@
 		E4552C3A245B9166008203BF /* ChoiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4552C39245B9166008203BF /* ChoiceViewModel.swift */; };
 		E4552C3C245B934D008203BF /* ChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4552C3B245B934D008203BF /* ChoiceCell.swift */; };
 		E458390C24700C500046BC6D /* TransitionWithBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458390B24700C500046BC6D /* TransitionWithBlur.swift */; };
+		E48C59C724D36A2600FB8C99 /* BottomMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48C59C624D36A2600FB8C99 /* BottomMenuView.swift */; };
 		E499920A2469B5F800B9E7B9 /* SlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49992092469B5F800B9E7B9 /* SlideMenuView.swift */; };
 		E499920D2469C28500B9E7B9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E499920C2469C28500B9E7B9 /* CardView.swift */; };
 		E499920F2469C4D200B9E7B9 /* CardsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E499920E2469C4D200B9E7B9 /* CardsCollection.swift */; };
@@ -40,6 +41,7 @@
 		E4552C39245B9166008203BF /* ChoiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewModel.swift; sourceTree = "<group>"; };
 		E4552C3B245B934D008203BF /* ChoiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceCell.swift; sourceTree = "<group>"; };
 		E458390B24700C500046BC6D /* TransitionWithBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionWithBlur.swift; sourceTree = "<group>"; };
+		E48C59C624D36A2600FB8C99 /* BottomMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuView.swift; sourceTree = "<group>"; };
 		E49992092469B5F800B9E7B9 /* SlideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuView.swift; sourceTree = "<group>"; };
 		E499920C2469C28500B9E7B9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E499920E2469C4D200B9E7B9 /* CardsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCollection.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		E4552C24245B8FDF008203BF /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				E48C59C524D36A1000FB8C99 /* bottomMenu */,
 				E4A76D3B24D21E4000FF58CA /* LoginView */,
 				E4A76D3624D20D5D00FF58CA /* popupView */,
 				E4A76D3324D20D4600FF58CA /* flotingButtons */,
@@ -116,6 +119,14 @@
 				E458390B24700C500046BC6D /* TransitionWithBlur.swift */,
 			);
 			path = animationTransition;
+			sourceTree = "<group>";
+		};
+		E48C59C524D36A1000FB8C99 /* bottomMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E48C59C624D36A2600FB8C99 /* BottomMenuView.swift */,
+			);
+			path = bottomMenu;
 			sourceTree = "<group>";
 		};
 		E49992082469B5CF00B9E7B9 /* slideMenu */ = {
@@ -272,6 +283,7 @@
 				E4552C3A245B9166008203BF /* ChoiceViewModel.swift in Sources */,
 				E4A76D3224D20D3C00FF58CA /* MoveShapeView.swift in Sources */,
 				E4FA21C1247C9A2100C42893 /* ContextMenuView.swift in Sources */,
+				E48C59C724D36A2600FB8C99 /* BottomMenuView.swift in Sources */,
 				E4A76D3824D20D6900FF58CA /* PopupView.swift in Sources */,
 				E4552C3C245B934D008203BF /* ChoiceCell.swift in Sources */,
 				E499920F2469C4D200B9E7B9 /* CardsCollection.swift in Sources */,
