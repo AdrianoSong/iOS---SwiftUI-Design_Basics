@@ -17,7 +17,7 @@ struct ChoiceCell: View {
 
         HStack {
             Text(choice.rawValue)
-                .font(Font.title)
+                .font(.body)
                 .padding(.leading, 16)
             Spacer()
         }

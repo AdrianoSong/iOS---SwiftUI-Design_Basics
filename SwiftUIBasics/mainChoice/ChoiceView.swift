@@ -56,6 +56,8 @@ struct ChoiceView: View {
             return AnyView(PopupView())
         case .bottomMenu:
             return AnyView(BottomMenuView())
+        case .loginView:
+            return AnyView(SimpleLoginView())
         }
     }
 }
