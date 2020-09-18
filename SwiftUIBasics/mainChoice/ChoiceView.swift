@@ -36,6 +36,8 @@ struct ChoiceView: View {
     /// this function is prepared for more enum options
     func whereToGo(choice: MainChoice) -> some View {
         switch choice {
+        case .appStore:
+            return AnyView(AppStoreView())
         case .button:
             return AnyView(NeumorphicButtons())
         case .card:
@@ -62,6 +64,12 @@ struct ChoiceView: View {
             return AnyView(DetailView())
         case .menuHelper:
             return AnyView(MenuHelperView())
+        case .searchScreen:
+            if #available(iOS 14.0, *) {
+                return AnyView(SearchScreen())
+            } else {
+                return AnyView(Text("Feature only for iOS 14"))
+            }
         }
     }
 }

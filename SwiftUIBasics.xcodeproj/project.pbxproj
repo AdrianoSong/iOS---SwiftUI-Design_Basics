@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E411B06125140743002D54A9 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E411B06025140743002D54A9 /* SearchScreen.swift */; };
+		E42A32A424EC6F0D002CA142 /* AppStoreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A32A324EC6F0D002CA142 /* AppStoreHeaderView.swift */; };
+		E442310D24EC639B00317AFB /* AppStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442310C24EC639B00317AFB /* AppStoreView.swift */; };
+		E442310F24EC6D6F00317AFB /* AppStoreTodayCellType1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442310E24EC6D6F00317AFB /* AppStoreTodayCellType1.swift */; };
+		E451831724ED9A54006F438B /* AppStoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451831624ED9A54006F438B /* AppStoreDetailView.swift */; };
 		E4552C26245B8FDF008203BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4552C25245B8FDF008203BF /* AppDelegate.swift */; };
 		E4552C28245B8FDF008203BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4552C27245B8FDF008203BF /* SceneDelegate.swift */; };
 		E4552C2A245B8FDF008203BF /* ChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4552C29245B8FDF008203BF /* ChoiceView.swift */; };
@@ -32,6 +37,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E411B06025140743002D54A9 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		E42A32A324EC6F0D002CA142 /* AppStoreHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreHeaderView.swift; sourceTree = "<group>"; };
+		E442310C24EC639B00317AFB /* AppStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreView.swift; sourceTree = "<group>"; };
+		E442310E24EC6D6F00317AFB /* AppStoreTodayCellType1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreTodayCellType1.swift; sourceTree = "<group>"; };
+		E451831624ED9A54006F438B /* AppStoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreDetailView.swift; sourceTree = "<group>"; };
 		E4552C22245B8FDF008203BF /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4552C25245B8FDF008203BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4552C27245B8FDF008203BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +79,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E411B05F25140729002D54A9 /* searchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E411B06025140743002D54A9 /* SearchScreen.swift */,
+			);
+			path = searchScreen;
+			sourceTree = "<group>";
+		};
+		E442310B24EC638800317AFB /* appStore */ = {
+			isa = PBXGroup;
+			children = (
+				E442310C24EC639B00317AFB /* AppStoreView.swift */,
+				E442310E24EC6D6F00317AFB /* AppStoreTodayCellType1.swift */,
+				E42A32A324EC6F0D002CA142 /* AppStoreHeaderView.swift */,
+				E451831624ED9A54006F438B /* AppStoreDetailView.swift */,
+			);
+			path = appStore;
+			sourceTree = "<group>";
+		};
 		E4552C19245B8FDF008203BF = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +117,8 @@
 		E4552C24245B8FDF008203BF /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				E411B05F25140729002D54A9 /* searchScreen */,
+				E442310B24EC638800317AFB /* appStore */,
 				E4734A2824E5BC47004C5FFB /* menuHelper */,
 				E4734A2524E5AC63004C5FFB /* detailView */,
 				E48C59C524D36A1000FB8C99 /* bottomMenu */,
@@ -254,7 +285,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Adriano Song";
 				TargetAttributes = {
 					E4552C21245B8FDF008203BF = {
@@ -302,14 +333,19 @@
 				E4734A2724E5AC77004C5FFB /* DetailView.swift in Sources */,
 				E4552C28245B8FDF008203BF /* SceneDelegate.swift in Sources */,
 				E4552C2A245B8FDF008203BF /* ChoiceView.swift in Sources */,
+				E411B06125140743002D54A9 /* SearchScreen.swift in Sources */,
 				E458390C24700C500046BC6D /* TransitionWithBlur.swift in Sources */,
+				E42A32A424EC6F0D002CA142 /* AppStoreHeaderView.swift in Sources */,
 				E4552C3A245B9166008203BF /* ChoiceViewModel.swift in Sources */,
 				E4A76D3224D20D3C00FF58CA /* MoveShapeView.swift in Sources */,
+				E451831724ED9A54006F438B /* AppStoreDetailView.swift in Sources */,
 				E4734A2A24E5BCE0004C5FFB /* MenuHelperView.swift in Sources */,
 				E4FA21C1247C9A2100C42893 /* ContextMenuView.swift in Sources */,
 				E48C59C724D36A2600FB8C99 /* BottomMenuView.swift in Sources */,
+				E442310D24EC639B00317AFB /* AppStoreView.swift in Sources */,
 				E4A76D3824D20D6900FF58CA /* PopupView.swift in Sources */,
 				E4552C3C245B934D008203BF /* ChoiceCell.swift in Sources */,
+				E442310F24EC6D6F00317AFB /* AppStoreTodayCellType1.swift in Sources */,
 				E499920F2469C4D200B9E7B9 /* CardsCollection.swift in Sources */,
 				E4B8B1C8245C530B00F5CCB4 /* NeumorphicButtonsView.swift in Sources */,
 				E4A76D3524D20D5500FF58CA /* FloatingButtons.swift in Sources */,
@@ -360,6 +396,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -420,6 +457,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

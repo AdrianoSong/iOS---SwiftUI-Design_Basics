@@ -10,6 +10,7 @@ import Foundation
 
 enum MainChoice: String, CaseIterable {
 
+    case appStore = "App Store"
     case button = "Neumorphic Buttons"
     case card = "Gestures, blend and transform"
     case slideMenu = "Left side in menu"
@@ -23,6 +24,7 @@ enum MainChoice: String, CaseIterable {
     case loginView = "Simple Login Screen"
     case detailView = "Simple detail zoom view"
     case menuHelper = "Menu helper"
+    case searchScreen = "Search View"
 }
 
 ///The only way to add Identifiable to an Enum type
@@ -36,6 +38,7 @@ class ChoiceViewModel {
 
     init() {
         choiceArray = [
+            .appStore,
             .button,
             .card,
             .slideMenu,
@@ -48,7 +51,8 @@ class ChoiceViewModel {
             .bottomMenu,
             .loginView,
             .detailView,
-            .menuHelper
+            .menuHelper,
+            .searchScreen
         ]
     }
 }
